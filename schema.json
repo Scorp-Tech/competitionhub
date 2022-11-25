@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Title",
+        "author": "By someone",
+        "id": "52akbdj35",
+        "testImage": "firebase/storage/52akbdj35.png",
+        "url": "firebase/storage/52akbdj35.pdf",
+        "description": "Description",
+        "startDate": "19-11-2022 12:39:99 IST",
+        "dueDate": "19-11-2022 12:39:99 IST",
+        "duration": "2 hrs 30 mins",
+        "noOfQues": "17",
+        "isMCQ": false,
+        "questions": [
+            {
+                "question": "Is this a question?",
+                "options": [
+                    "Yes",
+                    "No",
+                    "Maybe",
+                    "I don't know"
+                ],
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this not a question?",
+                "options": [
+                    "Yes",
+                    "No",
+                    "Maybe",
+                    "I don't know"
+                ],
+                "answer": "No"
+            }
+        ]
+    }
+]

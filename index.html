@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compitition Hub</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+</head>
+
+<body>
+    <div class="background">
+        <div class="shape"></div>
+        <div class="shape"></div>
+    </div>
+    <form autocomplete="off" id="login-form">
+        <img src="../assets/images/LOGO_v&P.svg" alt="">
+        <h3>Admin Login</h3>
+
+        <label for="username">Email Or Username</label>
+        <input type="text" placeholder="Email or Username" id="email">
+
+        <label for="password">Password</label>
+        <input type="password" placeholder="Password" id="password">
+        <button class="passwordVisiblility"><i class="visibility fas fa-eye"></i></button>
+        <button type="submit" class="loginBtn">Log In</button>
+    </form>
+    <!-- FireBase Configration JS File -->
+
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+    <script src="./Assets/Script/firebase.js"></script>
+    <script src="./script.js" type="module"></script>
+</body>
+
+</html>
